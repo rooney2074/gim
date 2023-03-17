@@ -1,0 +1,63 @@
+body{
+    background: rgb(140,140,140);
+background: radial-gradient(circle, rgba(140,140,140,1) 0%, rgba(0,0,0,1) 100%);
+background-repeat: no-repeat; background-attachment: fixed; background-size: cover;
+}
+.image{
+    background-image: url('https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80');
+    background-size: cover;
+    height: 380px;
+    border-radius: 10px;
+}
+#row{
+    background: rgba(140,140,140,0.3);
+    border-radius: 10px;
+}
+.scrollmenu{
+    text-decoration: none;  
+      height: 380px;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+    border-radius: 10px;
+    width: 50%;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 143, 143); 
+  }
+.scroll{
+    background: rgba(140,140,140,0.8);
+    margin-top: 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.scroll:hover{
+    background: rgba(140,140,140,0.3);
+}
+.scroll img:hover{
+    background: rgba(140,140,140,0.3);
+}
+img{
+    background: rgba(140,140,140,0.8);
+    padding: 10px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -75px;
+}
+
