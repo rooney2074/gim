@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div id="preloader">
+        
+    </div>
+    <audio autoplay loop>
+        <source src="song/DSWeHRIILZ4.mp3">
+    </audio>
     <div class="vessel">
         <div class="container">
             <div class="row mx-auto py-md-2 w-100 mb-5" style="margin-top: 100px;" id="row">
@@ -180,4 +186,13 @@
         </div>
     </div>
 </body>
+<script>
+    // preloader
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load",function(){
+    loader.style.display="none";
+})
+</script>
 </html>

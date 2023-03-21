@@ -6,3 +6,10 @@ background-repeat: no-repeat; background-attachment: fixed; background-size: cov
 h1{
     font-size: 50px;
 }
+.rate{
+    border: none;
+    border-bottom: 2px solid black;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+}
