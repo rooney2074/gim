@@ -13,3 +13,9 @@ h1{
     backdrop-filter: blur(10px);
     color: white;
 }
+audio{
+    opacity: 50%;
+  }
+  audio:hover{
+    opacity: 70%;
+  }
